@@ -25,7 +25,7 @@ class EventStrategy implements EventStrategyInterface
     public function broadcast(CustomEventInterface $event): void
     {
         $wrappedEvent = new EventWrapper($event);
-        $this->dispatcher->dispatch($wrappedEvent, $event::getId());
+        $this->dispatcher->dispatch($wrappedEvent, $event::class);
     }
 
     /**
@@ -38,7 +38,8 @@ class EventStrategy implements EventStrategyInterface
     public function attach(string $event, callable $action, ?int $priority = null): void
     {
         $wrappedAction = $this->wrapAction($action);
-        $this->dispatcher->addListener($event, $wrappedAction, $priority);
+
+        $this->dispatcher->addListener($event, $wrappedAction, $priority ?? 0);
     }
 
     /**

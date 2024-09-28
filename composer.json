@@ -134,6 +134,7 @@
     ],
     "require": {
         "phpnomad/event": "dev-main",
+        "phpnomad/di": "dev-main",
         "symfony/event-dispatcher": "^7.1",
         "phpnomad/loader": "dev-main"
     },

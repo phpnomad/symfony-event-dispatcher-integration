@@ -4,43 +4,35 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "965b4eb9a571ed43671d0142218b662f",
+    "content-hash": "d579d07fa85f5f9a223a803a7ab0cde2",
     "packages": [
         {
             "name": "phpnomad/di",
-            "version": "dev-main",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpnomad/di.git",
-                "reference": "9b979249e23e2e1bac70a2d6475f9738a6e4e22a"
+                "reference": "e1719564d580062ae5369b364ab1c8fd3acb2e53"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpnomad/di/zipball/9b979249e23e2e1bac70a2d6475f9738a6e4e22a",
-                "reference": "9b979249e23e2e1bac70a2d6475f9738a6e4e22a",
+                "url": "https://api.github.com/repos/phpnomad/di/zipball/e1719564d580062ae5369b364ab1c8fd3acb2e53",
+                "reference": "e1719564d580062ae5369b364ab1c8fd3acb2e53",
                 "shasum": ""
             },
-            "require-dev": {
-                "phpnomad/tests": "^0.1.0",
-                "phpnomad/utils": "dev-main"
+            "require": {
+                "phpnomad/utils": "^1.0"
             },
-            "default-branch": true,
+            "require-dev": {
+                "phpnomad/tests": "^0.1.0"
+            },
             "type": "library",
             "autoload": {
                 "psr-4": {
                     "PHPNomad\\Di\\": "lib/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "PHPNomad\\Di\\Tests\\": "tests/"
-                }
-            },
-            "scripts": {
-                "php-cs-fixer": [
-                    "php-cs-fixer fix"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -52,45 +44,35 @@
             ],
             "homepage": "https://github.com/phpnomad/core",
             "support": {
-                "source": "https://github.com/phpnomad/di/tree/main",
-                "issues": "https://github.com/phpnomad/di/issues"
+                "issues": "https://github.com/phpnomad/di/issues",
+                "source": "https://github.com/phpnomad/di/tree/1.0.0"
             },
-            "time": "2024-08-19T03:14:36+00:00"
+            "time": "2024-12-18T17:09:23+00:00"
         },
         {
             "name": "phpnomad/event",
-            "version": "dev-main",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpnomad/event.git",
-                "reference": "0a4532cb251eb2b5c303b6548d4d169d1eb2ebde"
+                "reference": "c2f8f4c19bfd017086dbffb0510e20b06d7fa533"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpnomad/event/zipball/0a4532cb251eb2b5c303b6548d4d169d1eb2ebde",
-                "reference": "0a4532cb251eb2b5c303b6548d4d169d1eb2ebde",
+                "url": "https://api.github.com/repos/phpnomad/event/zipball/c2f8f4c19bfd017086dbffb0510e20b06d7fa533",
+                "reference": "c2f8f4c19bfd017086dbffb0510e20b06d7fa533",
                 "shasum": ""
             },
             "require-dev": {
                 "phpnomad/tests": "^0.1.0"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
                     "PHPNomad\\Events\\": "lib/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "PHPNomad\\Events\\Tests\\": "tests/"
-                }
-            },
-            "scripts": {
-                "php-cs-fixer": [
-                    "php-cs-fixer fix"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -102,47 +84,37 @@
             ],
             "homepage": "https://github.com/phpnomad/core",
             "support": {
-                "source": "https://github.com/phpnomad/event/tree/feature/lifterlms-integration",
-                "issues": "https://github.com/phpnomad/event/issues"
+                "issues": "https://github.com/phpnomad/event/issues",
+                "source": "https://github.com/phpnomad/event/tree/1.0.0"
             },
-            "time": "2024-01-31T15:48:16+00:00"
+            "time": "2024-12-18T17:10:47+00:00"
         },
         {
             "name": "phpnomad/facade",
-            "version": "dev-main",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpnomad/facade.git",
-                "reference": "d8160e8047fa8061caa54da430c5a2f7afd369b4"
+                "reference": "225c9a743d7f57410a78d8923a086bda1b6aa2fa"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpnomad/facade/zipball/d8160e8047fa8061caa54da430c5a2f7afd369b4",
-                "reference": "d8160e8047fa8061caa54da430c5a2f7afd369b4",
+                "url": "https://api.github.com/repos/phpnomad/facade/zipball/225c9a743d7f57410a78d8923a086bda1b6aa2fa",
+                "reference": "225c9a743d7f57410a78d8923a086bda1b6aa2fa",
                 "shasum": ""
             },
             "require-dev": {
-                "phpnomad/di": "dev-main",
-                "phpnomad/logger": "dev-main",
+                "phpnomad/di": "^1.0",
+                "phpnomad/logger": "^1.0",
                 "phpnomad/tests": "^0.1.0"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
                     "PHPNomad\\Facade\\": "lib/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "PHPNomad\\Facade\\Tests\\": "tests/"
-                }
-            },
-            "scripts": {
-                "php-cs-fixer": [
-                    "php-cs-fixer fix"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -154,52 +126,42 @@
             ],
             "homepage": "https://github.com/phpnomad/core",
             "support": {
-                "source": "https://github.com/phpnomad/facade/tree/feature/lifterlms-integration",
-                "issues": "https://github.com/phpnomad/facade/issues"
+                "issues": "https://github.com/phpnomad/facade/issues",
+                "source": "https://github.com/phpnomad/facade/tree/1.0.0"
             },
-            "time": "2023-10-30T10:56:02+00:00"
+            "time": "2024-12-18T17:11:21+00:00"
         },
         {
             "name": "phpnomad/loader",
-            "version": "dev-main",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpnomad/loader.git",
-                "reference": "1c84dfb6798236a276303ebfa117f4cf8c7f726c"
+                "reference": "34daf60b0b086588fb3adf84dbd224c7d787682d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpnomad/loader/zipball/1c84dfb6798236a276303ebfa117f4cf8c7f726c",
-                "reference": "1c84dfb6798236a276303ebfa117f4cf8c7f726c",
+                "url": "https://api.github.com/repos/phpnomad/loader/zipball/34daf60b0b086588fb3adf84dbd224c7d787682d",
+                "reference": "34daf60b0b086588fb3adf84dbd224c7d787682d",
                 "shasum": ""
             },
             "require": {
-                "phpnomad/di": "dev-main",
-                "phpnomad/facade": "dev-main",
-                "phpnomad/mutator": "dev-main",
-                "phpnomad/update": "dev-main",
-                "phpnomad/utils": "dev-main"
+                "phpnomad/di": "^1.0",
+                "phpnomad/facade": "^1.0",
+                "phpnomad/mutator": "^1.0",
+                "phpnomad/update": "^1.0",
+                "phpnomad/utils": "^1.0"
             },
             "require-dev": {
                 "phpnomad/tests": "^0.1.0"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
                     "PHPNomad\\Loader\\": "lib/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "PHPNomad\\Loader\\Tests\\": "tests/"
-                }
-            },
-            "scripts": {
-                "php-cs-fixer": [
-                    "php-cs-fixer fix"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -211,45 +173,35 @@
             ],
             "homepage": "https://github.com/phpnomad/core",
             "support": {
-                "source": "https://github.com/phpnomad/loader/tree/main",
-                "issues": "https://github.com/phpnomad/loader/issues"
+                "issues": "https://github.com/phpnomad/loader/issues",
+                "source": "https://github.com/phpnomad/loader/tree/1.0.0"
             },
-            "time": "2024-08-19T03:10:04+00:00"
+            "time": "2024-12-18T17:16:39+00:00"
         },
         {
             "name": "phpnomad/mutator",
-            "version": "dev-main",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpnomad/mutator.git",
-                "reference": "ff82b88e53ea1e4bb217a7b16c433729d024dec5"
+                "reference": "04aea2dc50fa71a4e2e0c10efe7b38991d4c3d5f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpnomad/mutator/zipball/ff82b88e53ea1e4bb217a7b16c433729d024dec5",
-                "reference": "ff82b88e53ea1e4bb217a7b16c433729d024dec5",
+                "url": "https://api.github.com/repos/phpnomad/mutator/zipball/04aea2dc50fa71a4e2e0c10efe7b38991d4c3d5f",
+                "reference": "04aea2dc50fa71a4e2e0c10efe7b38991d4c3d5f",
                 "shasum": ""
             },
             "require-dev": {
-                "phoenix/tests": "^0.1.0"
+                "phpnomad/tests": "^0.1.0"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
                     "PHPNomad\\Mutator\\": "lib/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "PHPNomad\\Mutator\\Tests\\": "tests/"
-                }
-            },
-            "scripts": {
-                "php-cs-fixer": [
-                    "php-cs-fixer fix"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -261,48 +213,38 @@
             ],
             "homepage": "https://github.com/phoenix/core",
             "support": {
-                "source": "https://github.com/phpnomad/mutator/tree/feature/lifterlms-integration",
-                "issues": "https://github.com/phpnomad/mutator/issues"
+                "issues": "https://github.com/phpnomad/mutator/issues",
+                "source": "https://github.com/phpnomad/mutator/tree/1.0.0"
             },
-            "time": "2023-11-18T19:10:00+00:00"
+            "time": "2024-12-18T17:18:31+00:00"
         },
         {
             "name": "phpnomad/update",
-            "version": "dev-main",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpnomad/update.git",
-                "reference": "d6065fc52aec9748042e0355f21289c79c540750"
+                "reference": "a64dfef8e6ed874dab36fa9c2613555bf5ae27b6"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpnomad/update/zipball/d6065fc52aec9748042e0355f21289c79c540750",
-                "reference": "d6065fc52aec9748042e0355f21289c79c540750",
+                "url": "https://api.github.com/repos/phpnomad/update/zipball/a64dfef8e6ed874dab36fa9c2613555bf5ae27b6",
+                "reference": "a64dfef8e6ed874dab36fa9c2613555bf5ae27b6",
                 "shasum": ""
             },
             "require": {
-                "phpnomad/event": "dev-main"
+                "phpnomad/event": "^1.0"
             },
             "require-dev": {
                 "phpnomad/tests": "^0.1.0"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
                     "PHPNomad\\Update\\": "lib/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "PHPNomad\\Update\\Tests\\": "tests/"
-                }
-            },
-            "scripts": {
-                "php-cs-fixer": [
-                    "php-cs-fixer fix"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -314,45 +256,35 @@
             ],
             "homepage": "https://github.com/phpnomad/update",
             "support": {
-                "source": "https://github.com/phpnomad/update/tree/main",
-                "issues": "https://github.com/phpnomad/update/issues"
+                "issues": "https://github.com/phpnomad/update/issues",
+                "source": "https://github.com/phpnomad/update/tree/1.0.0"
             },
-            "time": "2024-08-17T00:07:07+00:00"
+            "time": "2024-12-18T16:24:44+00:00"
         },
         {
             "name": "phpnomad/utils",
-            "version": "dev-main",
+            "version": "1.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpnomad/utils.git",
-                "reference": "e52c2d9885cc9c9ee052a5c66f9b77589fba911d"
+                "reference": "bf47baea7ca6d5245f789fc93396d01f2ae5cc34"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpnomad/utils/zipball/e52c2d9885cc9c9ee052a5c66f9b77589fba911d",
-                "reference": "e52c2d9885cc9c9ee052a5c66f9b77589fba911d",
+                "url": "https://api.github.com/repos/phpnomad/utils/zipball/bf47baea7ca6d5245f789fc93396d01f2ae5cc34",
+                "reference": "bf47baea7ca6d5245f789fc93396d01f2ae5cc34",
                 "shasum": ""
             },
             "require-dev": {
                 "phpnomad/tests": "^0.1.0"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
                     "PHPNomad\\Utils\\": "lib/"
                 }
             },
-            "autoload-dev": {
-                "psr-4": {
-                    "PHPNomad\\Utils\\Tests\\": "tests/"
-                }
-            },
-            "scripts": {
-                "php-cs-fixer": [
-                    "php-cs-fixer fix"
-                ]
-            },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -364,10 +296,10 @@
             ],
             "homepage": "https://github.com/phpnomad/core",
             "support": {
-                "source": "https://github.com/phpnomad/utils/tree/main",
-                "issues": "https://github.com/phpnomad/utils/issues"
+                "issues": "https://github.com/phpnomad/utils/issues",
+                "source": "https://github.com/phpnomad/utils/tree/1.0.0"
             },
-            "time": "2024-08-19T01:53:35+00:00"
+            "time": "2024-12-18T16:24:57+00:00"
         },
         {
             "name": "psr/event-dispatcher",
@@ -421,16 +353,16 @@
         },
         {
             "name": "symfony/event-dispatcher",
-            "version": "v7.1.1",
+            "version": "v7.2.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher.git",
-                "reference": "9fa7f7a21beb22a39a8f3f28618b29e50d7a55a7"
+                "reference": "910c5db85a5356d0fea57680defec4e99eb9c8c1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/9fa7f7a21beb22a39a8f3f28618b29e50d7a55a7",
-                "reference": "9fa7f7a21beb22a39a8f3f28618b29e50d7a55a7",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher/zipball/910c5db85a5356d0fea57680defec4e99eb9c8c1",
+                "reference": "910c5db85a5356d0fea57680defec4e99eb9c8c1",
                 "shasum": ""
             },
             "require": {
@@ -481,7 +413,7 @@
             "description": "Provides tools that allow your application components to communicate with each other by dispatching events and listening to them",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/event-dispatcher/tree/v7.1.1"
+                "source": "https://github.com/symfony/event-dispatcher/tree/v7.2.0"
             },
             "funding": [
                 {
@@ -497,20 +429,20 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-05-31T14:57:53+00:00"
+            "time": "2024-09-25T14:21:43+00:00"
         },
         {
             "name": "symfony/event-dispatcher-contracts",
-            "version": "v3.5.0",
+            "version": "v3.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/event-dispatcher-contracts.git",
-                "reference": "8f93aec25d41b72493c6ddff14e916177c9efc50"
+                "reference": "7642f5e970b672283b7823222ae8ef8bbc160b9f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/event-dispatcher-contracts/zipball/8f93aec25d41b72493c6ddff14e916177c9efc50",
-                "reference": "8f93aec25d41b72493c6ddff14e916177c9efc50",
+                "url": "https://api.github.com/repos/symfony/event-dispatcher-contracts/zipball/7642f5e970b672283b7823222ae8ef8bbc160b9f",
+                "reference": "7642f5e970b672283b7823222ae8ef8bbc160b9f",
                 "shasum": ""
             },
             "require": {
@@ -557,7 +489,7 @@
                 "standards"
             ],
             "support": {
-                "source": "https://github.com/symfony/event-dispatcher-contracts/tree/v3.5.0"
+                "source": "https://github.com/symfony/event-dispatcher-contracts/tree/v3.5.1"
             },
             "funding": [
                 {
@@ -573,18 +505,16 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2024-04-18T09:32:20+00:00"
+            "time": "2024-09-25T14:20:29+00:00"
         }
     ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": {
-        "phpnomad/event": 20
-    },
+    "stability-flags": {},
     "prefer-stable": true,
     "prefer-lowest": false,
-    "platform": [],
-    "platform-dev": [],
+    "platform": {},
+    "platform-dev": {},
     "plugin-api-version": "2.6.0"
 }
